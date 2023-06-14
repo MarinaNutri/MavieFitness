@@ -1,0 +1,42 @@
+header{
+    background-color: rgb(245, 242, 241);;
+}
+.links{
+    background-color: rgb(245, 242, 241);;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.navLink {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:rgb(59, 58, 58);
+    cursor: pointer;
+    position: relative;
+    padding: 1.5rem;
+}
+.navLink:hover{
+    color: rgb(66, 153, 153);
+
+}
+.imgHeader{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 2rem;
+}
+.imgLogo {
+    display: flex;
+    height: 10rem;
+    padding-left: 2rem;
+}
+.imgCarrinho{
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+}
+.imgCarrinho img{
+    width: 2.5rem;
+}

@@ -1,0 +1,26 @@
+.depoimentos{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(205, 203, 202);
+    flex-wrap: wrap;
+    padding: 0rem 3rem;
+    border: solid 0.2px rgb(112, 110, 110);
+    margin-bottom: 2rem;
+    align-items: center;
+}
+.depo{
+    padding: 0rem 2rem;
+    width: 15rem;
+}
+.fraseDepo{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.estrelas{
+    width: 6rem;
+}
+.nomeDepo{
+    font-size: 1rem;
+    font-weight: 500;
+}

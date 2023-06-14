@@ -1,0 +1,31 @@
+footer, .atendimento, .formasPagamento, .formasEntrega, .midias{
+    background-color:  rgb(245, 242, 241);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.atendimento, .formasEntrega, .formasPagamento{
+    padding: 0rem 3rem;
+}
+.midias{
+    height: 1.4rem;   
+    position: relative;
+    top: 0.3rem;
+}
+.itemAtendimento{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.icoPagamento{
+    height: 2rem;
+    padding: 0.5rem;
+}
+.icoCorreios {
+   width: 5rem;
+}
+.titulosFooter{
+    font-size: 1.4rem;
+}
